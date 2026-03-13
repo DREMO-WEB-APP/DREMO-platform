@@ -1,0 +1,1 @@
+export const EMAIL_ACCOUNT_REPOSITORY_TOKEN = Symbol('IEmailAccountRepositoryToken ');

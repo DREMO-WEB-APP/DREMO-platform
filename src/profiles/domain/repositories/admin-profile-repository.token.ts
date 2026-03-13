@@ -1,0 +1,1 @@
+export const ADMIN_PROFILE_REPOSITORY_TOKEN = Symbol('IAdminProfileRepositoryToken ');

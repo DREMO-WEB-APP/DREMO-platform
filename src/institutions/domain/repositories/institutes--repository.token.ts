@@ -1,0 +1,1 @@
+export const INSTITUTESREPOSITORYTOKEN = Symbol('IInstitutesRepositoryToken');

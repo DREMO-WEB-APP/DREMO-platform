@@ -1,0 +1,1 @@
+export const STUDENT_PROFILE_REPOSITORY_TOKEN = Symbol('IStudentProfileRepositoryToken ');

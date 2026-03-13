@@ -1,0 +1,1 @@
+export const TEACHER_PROFILE_REPOSITORY_TOKEN = Symbol('ITeacherProfileRepositoryToken');
