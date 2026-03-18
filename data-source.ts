@@ -21,6 +21,6 @@ export default new DataSource({
     //entities: [Account,Role,Student,Admin,Teacher,EmailAccount,Request,Institute,Invitation],
 
     //OJO, ACA CAMBIAR A '/migrations/*.ts' para probar en local
-    migrations: [  __dirname + '/migrations/*.ts'],
+    migrations: [  __dirname + '/migrations/*.js'],
     synchronize: false, // MUST BE FALSE for migrations!
 });
