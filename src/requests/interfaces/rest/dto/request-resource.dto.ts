@@ -1,6 +1,6 @@
 import {RequestStatus} from "../../../domain/model/value-objects/RequestStatus";
 import {Request} from "../../../domain/model/aggregates/Request";
-import {Admin} from "../../../../profiles/domain/model/aggregates/admin";
+import {Admin} from "../../../../profiles/domain/model/aggregates/Admin";
 
 export class RequestResourceDto {
   id: number;
@@ -23,4 +23,3 @@ export class RequestResourceDto {
     return dto;
   }
 }
-
