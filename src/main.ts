@@ -42,7 +42,7 @@ async function bootstrap() {
     const allowedOrigin = process.env.WEB_APP_URL;
 
     app.use(cors({
-        origin: '*',
+        origin: ['https://gremoquegua.edu.pe'],
         credentials: true
     }));
     await app.listen(process.env.PORT ?? 3000, '0.0.0.0');
